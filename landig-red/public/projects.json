@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "id": "CASA - INTELIGENTE",
+      "title": "casa inteligente",
+      "description": "casa con domotica realizada con MakerJunior",
+      "image": "/img/casa-domotica.jpg"
+    },
+    {
+      "id": "SIMON DICE",
+      "title": "SIMON DICE",
+      "description": "Juego de la memoria realizado por TeensMaker",
+      "image": "/img/simon-dice.jpeg"
+    },
+    {
+      "id": "Proyecto 3",
+      "title": "Proyecto 3",
+      "description": "Proyecto 3",
+      "image": "/img/arduino.jpg"
+    },
+    {
+      "id": "Proyecto 4",
+      "title": "Proyecto 4",
+      "description": "Proyecto 4",
+      "image": "/img/arduino.jpg"
+    },
+    {
+      "id": "Proyecto 5",
+      "title": "Proyecto 5",
+      "description": "Proyecto 5",
+      "image": "/img/arduino.jpg"
+    },
+    {
+      "id": "Proyecto 6",
+      "title": "Proyecto 6",
+      "description": "Proyecto 6",
+      "image": "/img/arduino.jpg"
+    },
+    {
+      "id": "Proyecto 7",
+      "title": "Proyecto 7",
+      "description": "Proyecto 7",
+      "image": "/img/arduino.jpg"
+    },
+    {
+      "id": "Proyecto 8",
+      "title": "Proyecto 8",
+      "description": "Proyecto 8",
+      "image": "/img/arduino.jpg"
+    },
+    {
+      "id": "Proyecto 9",
+      "title": "Proyecto 9",
+      "description": "Proyecto 9",
+      "image": "/img/arduino.jpg"
+    }
+  ]
+}
