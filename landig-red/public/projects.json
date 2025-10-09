@@ -4,7 +4,13 @@
       "id": "CASA - INTELIGENTE",
       "title": "casa inteligente",
       "description": "casa con domotica realizada con MakerJunior",
-      "image": "/img/casa-domotica.jpg"
+      "image": "/img/casa-domotica.webp",
+      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "gallery": [
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp"
+      ]
     },
     {
       "id": "SIMON DICE",

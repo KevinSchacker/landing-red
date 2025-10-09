@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectCard from "./components/ProjectCard";
+import ProjectModal from "./components/ProjectModal";
 import { fetchCounts } from "./api";
 import "./styles.css";
 
@@ -15,6 +16,10 @@ export default function App() {
   const [counts, setCounts] = useState({});
   const [loading, setLoading] = useState(true);
   const [err, setErr] = useState(null);
+
+  // Modal
+  const [open, setOpen] = useState(false);
+  const [selected, setSelected] = useState(null);
 
   // userId persistente (fallback si localStorage falla)
   const userId = useMemo(() => {
@@ -72,6 +77,18 @@ export default function App() {
     await refreshCounts();
   };
 
+  const openDetails = (project) => {
+    setSelected(project);
+    setOpen(true);
+    // bloquear scroll del body en mobile
+    document.documentElement.style.overflow = 'hidden';
+  };
+  const closeDetails = () => {
+    setOpen(false);
+    setSelected(null);
+    document.documentElement.style.overflow = '';
+  };
+
   return (
     <>
       <Navbar />
@@ -99,6 +116,7 @@ export default function App() {
                 canVote={!alreadyVoted}
                 userId={userId}
                 onVoted={handleVoted}
+                onOpenDetails={openDetails}  // 👈 pasa handler al card
               />
             ))}
           </section>
@@ -110,6 +128,9 @@ export default function App() {
       </main>
 
       <Footer />
+
+      {/* Modal */}
+      <ProjectModal open={open} onClose={closeDetails} project={selected} />
     </>
   );
 }

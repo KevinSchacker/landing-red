@@ -12,17 +12,22 @@ export default function VoteButton({ userId, projectId, disabled, onVoted }) {
     try {
       setSending(true);
       const resp = await sendVote({ userId, projectId });
-      if (!resp?.ok) {
-        const msg = resp?.reason || resp?.error || "No se registró el voto";
-        setToast({ message: `⚠️ ${msg}`, type: "error" });
+
+      if (resp?.ok) {
+        const msg = resp.opaque
+          ? "✅ Voto registrado (conexión limitada)"
+          : "✅ ¡Voto registrado!";
+        setToast({ message: msg, type: "success" });
+        await onVoted?.(); // refresca conteos
       } else {
-        setToast({ message: "✅ ¡Voto registrado!", type: "success" });
-        onVoted?.();
+        const reason = resp?.reason || resp?.error || "No se registró el voto";
+        setToast({ message: `⚠️ ${reason}`, type: "error" });
       }
+
       if (navigator.vibrate) navigator.vibrate(15);
     } catch (e) {
       setToast({ message: `⚠️ ${e.message}`, type: "error" });
-      console.error(e);
+      console.error("sendVote error:", e);
     } finally {
       setSending(false);
     }
