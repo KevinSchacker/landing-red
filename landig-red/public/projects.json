@@ -16,49 +16,97 @@
       "id": "SIMON DICE",
       "title": "SIMON DICE",
       "description": "Juego de la memoria realizado por TeensMaker",
-      "image": "/img/simon-dice.jpeg"
+      "image": "/img/simon-dice.jpeg",
+      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "gallery": [
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp"
+      ]
     },
     {
       "id": "Proyecto 3",
       "title": "Proyecto 3",
       "description": "Proyecto 3",
-      "image": "/img/arduino.jpg"
+      "image": "/img/arduino.jpg",
+      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "gallery": [
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp"
+      ]
     },
     {
       "id": "Proyecto 4",
       "title": "Proyecto 4",
       "description": "Proyecto 4",
-      "image": "/img/arduino.jpg"
+      "image": "/img/arduino.jpg",
+      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "gallery": [
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp"
+      ]
     },
     {
       "id": "Proyecto 5",
       "title": "Proyecto 5",
       "description": "Proyecto 5",
-      "image": "/img/arduino.jpg"
+      "image": "/img/arduino.jpg",
+      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "gallery": [
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp"
+      ]
     },
     {
       "id": "Proyecto 6",
       "title": "Proyecto 6",
       "description": "Proyecto 6",
-      "image": "/img/arduino.jpg"
+      "image": "/img/arduino.jpg",
+      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "gallery": [
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp"
+      ]
     },
     {
       "id": "Proyecto 7",
       "title": "Proyecto 7",
       "description": "Proyecto 7",
-      "image": "/img/arduino.jpg"
+      "image": "/img/arduino.jpg",
+      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "gallery": [
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp"
+      ]
     },
     {
       "id": "Proyecto 8",
       "title": "Proyecto 8",
       "description": "Proyecto 8",
-      "image": "/img/arduino.jpg"
+      "image": "/img/arduino.jpg",
+      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "gallery": [
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp"
+      ]
     },
     {
       "id": "Proyecto 9",
       "title": "Proyecto 9",
       "description": "Proyecto 9",
-      "image": "/img/arduino.jpg"
+      "image": "/img/arduino.jpg",
+      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "gallery": [
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp",
+        "/img/casa-domotica.webp"
+      ]
     }
   ]
 }
