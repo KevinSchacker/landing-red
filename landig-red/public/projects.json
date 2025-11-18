@@ -1,111 +1,96 @@
 {
   "projects": [
     {
-      "id": "CASA - INTELIGENTE",
-      "title": "casa inteligente",
-      "description": "casa con domotica realizada con MakerJunior",
-      "image": "/img/casa-domotica.webp",
-      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "id": "Tester-Gas",
+      "title": "Tester-Gas",
+      "description": "Dispositivo que detecta la perdida de gas",
+      "image": "/img/tester-gas-SedeObera.webp",
+      "descriptionGral": "Este es un Indicador Portátil de Detección de Gas, diseñado para la verificación rápida y puntual de la seguridad ambiental. Utiliza el sensor MQ-2 para la medición bajo demanda de la concentración de gas en un punto específico. Alimentado por una placa ESP32, el dispositivo ofrece una lectura de estado instantánea mediante su indicador LED RGB, ideal para inspecciones de rutina o pruebas de fugas: Luz Verde: Confirma un ambiente seguro, sin niveles detectables de gas. Luz Roja: Alerta inmediatamente sobre la presencia de una fuga de gas, requiriendo acción.",
       "gallery": [
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp"
+        "/img/tester-gas-SedeObera.webp"
+      ]
+    },
+    {
+      "id": "Alcoholímetro Vehicular",
+      "title": "Alcoholímetro Vehicular",
+      "description": "Dispositivo que detecta la aptitud para la conducción vehicular",
+      "image": "/img/Alcoholimetro-SedeObera.webp",
+      "descriptionGral": "Este dispositivo de control de acceso vehicular está diseñado para asegurar la sobriedad del conductor antes de iniciar la marcha. Utilizando el sensor de alta precisión MQ-3, evalúa rápidamente la presencia de alcohol en el aliento.",
+      "gallery": [
+        "/img/Alcoholimetro-SedeObera.webp"
       ]
     },
     {
       "id": "SIMON DICE",
       "title": "SIMON DICE",
-      "description": "Juego de la memoria realizado por TeensMaker",
-      "image": "/img/simon-dice.jpeg",
-      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "description": "Este es un proyecto de juego de memoria basado en el clásico Simon Dice ",
+      "image": "/img/simon-SedeObera.webp",
+      "descriptionGral": "El proyecto pone a prueba la memoria secuencial del usuario. La ESP32 presenta una secuencia luminosa y el jugador debe demostrar su capacidad para recordar y reproducir la secuencia de colores correcta, aumentando progresivamente la dificultad a medida que avanza el nivel. Placa Base: ESP32, utilizada para la lógica de juego y control de periféricos. Interfaz de Juego:      4 LEDs (Rojo, Verde, Amarillo y Azul) con sus respectivos pulsadores. La secuencia se genera aleatoriamente encendiendo los LEDs, y el jugador debe replicarla pulsando los botones correspondientes. Interfaz de Usuario:   Pantalla LCD 16x2 que proporciona feedback al usuario, indicando:* Inicio del juego.* Momento de repetir la secuencia mostrada.* Nivel actual de dificultad.* Fin de la partida.",
       "gallery": [
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp"
+        "/img/simon-SedeObera.webp"
       ]
     },
     {
-      "id": "Proyecto 3",
-      "title": "Proyecto 3",
-      "description": "Proyecto 3",
-      "image": "/img/arduino.jpg",
-      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "id": "Parque Maker",
+      "title": "Parque Maker",
+      "description": "Proyecto parque temático elaborado en conjunto con Tecno Kids Básico y avanzado: La propuesta demuestra diversos niveles de desarrollo: Circuitos básicos hasta lograr una programación totalmente automática avanzada. Diseño que parte desde cero demostrando gran nivel de Creatividad.",
+      "image": "/img/proyecto-parque1.webp",
+      "descriptionGral": "Proyecto parque temático elaborado en conjunto con Tecno Kids Básico y avanzado: La propuesta demuestra diversos niveles de desarrollo: Circuitos básicos hasta lograr una programación totalmente automática avanzada. Diseño que parte desde cero demostrando gran nivel de Creatividad.",
       "gallery": [
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp"
+        "/img/proyecto-parque2.webp",
+        "/img/proyecto-parque3.webp",
+        "/img/proyecto-parque4.webp"
       ]
     },
     {
-      "id": "Proyecto 4",
-      "title": "Proyecto 4",
-      "description": "Proyecto 4",
-      "image": "/img/arduino.jpg",
-      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "id": "Medidor de resistencia",
+      "title": "Medidor de resistencia",
+      "description": "Este proyecto consiste en el diseño e implementación de un ohmímetro digital capaz de medir y mostrar los diversos valores de resistencia eléctrica. Utiliza una configuración de hardware básica pero efectiva.",
+      "image": "/img/Medidor-de-resistencia-SedeObera.webp",
+      "descriptionGral": "El dispositivo opera inyectando una tensión conocida y midiendo la caída de tensión resultante a través de la resistencia bajo prueba. La ESP32 calcula el valor de la resistencia en ohmios y lo presenta directamente en la pantalla LCD. Microcontrolador Principal: ESP32, empleado para gestionar la lógica de medición (a través de su Conversor Analógico-Digital o ADC) y controlar la visualización de los resultados. Visualización de Datos: Pantalla LCD 16x2, utilizada para mostrar de forma clara e inmediata el valor de resistencia medido y cualquier mensaje de estado relevante. Circuito de Medición: Implementado mediante una configuración de resistencias de regulación (o calibración) que, en conjunto con el ADC de la ESP32, permiten determinar el valor de la resistencia desconocida. Conexión de Pruebas: Bornes de conexión robustos que facilitan la inserción y sujeción de la resistencia a medir.",
       "gallery": [
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp"
+        "/img/Medidor-de-resistencia-SedeObera.webp"
       ]
     },
     {
-      "id": "Proyecto 5",
-      "title": "Proyecto 5",
-      "description": "Proyecto 5",
-      "image": "/img/arduino.jpg",
-      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "id": "Caja Fuerte",
+      "title": "Caja Fuerte",
+      "description": "Este proyecto es una caja fuerte electrónica que utiliza un sistema de seguridad basado en un teclado numérico (keypad) para la autenticación y un servomotor para el mecanismo de bloqueo.",
+      "image": "/img/caja-fuerte-SedeObera.webp",
+      "descriptionGral": "El usuario interactúa ingresando una secuencia de números a través del keypad. La Arduino Uno verifica la entrada contra la clave maestra programada. Si la clave es correcta, la Arduino acciona el servomotor para abrir la caja. Si la clave es incorrecta, el buzzer emite una señal de error.",
       "gallery": [
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp"
+        "/img/caja-fuerte-SedeObera.webp",
+        "/img/caja-fuerte1-SedeObera.webp"
       ]
     },
     {
-      "id": "Proyecto 6",
-      "title": "Proyecto 6",
-      "description": "Proyecto 6",
-      "image": "/img/arduino.jpg",
-      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
-      "gallery": [
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp"
+      "id": "Estación meteorologica IOT",
+      "title": "Estación meteorologica IOT",
+      "description": "Este proyecto es una estación meteorológica digital diseñada para monitorear múltiples variables ambientales clave. Utiliza una placa ESP32 como controlador central para la adquisición de datos y la gestión de la conectividad Wi-Fi, enviando la información en tiempo real a la plataforma Blynk Console para su visualización remota.",
+      "image": "/img/Estación-meteorologica-SedeObera.webp",
+      "descriptionGral": "Esta estación no solo recopila datos, sino que proporciona una solución completa para la monitorización remota de entornos, ideal para agricultura de precisión a pequeña escala o control de jardines. La estación integra un conjunto de sensores para obtener una visión completa de las condiciones ambientales: Sensor de Humedad de Suelo: Mide el contenido de agua en la tierra, esencial para aplicaciones de riego. Sensor de Lluvia: Detecta la presencia de precipitación, ideal para alertas o control de automatización exterior. Sensor de Temperatura y Humedad (DHT11): Proporciona lecturas ambientales precisas de la temperatura del aire y la humedad relativa. LDR (Fotorresistencia): Mide la intensidad lumínica ambiental, permitiendo monitorizar los niveles de luz diurna. Microcontrolador: ESP32, elegido por su potente procesamiento y conectividad Wi-Fi integrada para la transmisión inalámbrica de datos. Plataforma Cloud: blynk Console. El ESP32 se comunica con esta plataforma para enviar los datos sensados. Interfaz de Usuario: La información se presenta en entornos radiales de visualización dentro de la consola de Blynk, ofreciendo una forma intuitiva e inmediata de interpretar los valores medidos a distancia.","gallery": [
+        "/img/Estación-meteorologica-SedeObera.webp"
       ]
     },
     {
-      "id": "Proyecto 7",
-      "title": "Proyecto 7",
-      "description": "Proyecto 7",
-      "image": "/img/arduino.jpg",
-      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "id": "Ciudad de Lila ",
+      "title": "Ciudad de Lila ",
+      "description": "Proyecto La Ciudad de Lila Desarrollado íntegramente por grupos de Trend Kids, el proyecto La Ciudad de Lila es una iniciativa  que consta de dos componentes esenciales e interconectados: La Ciudad de Lila: La infraestructura urbana central del proyecto. La Moto de Lila: Un elemento de movilidad que interactúa con la ciudad.",
+      "image": "/img/CiudaddeLia2.webp.webp",
+      "descriptionGral": "La Ciudad de Lila\n\nEste proyecto no solo incorpora circuitos básicos, sino que también es una demostración funcional de las habilidades adquiridas por los estudiantes en electrónica y mecánica.\n\nComponentes y Habilidades Demostradas:\n- LEDs y Potenciómetros: utilizados para la iluminación integral de la maqueta, tanto a nivel de la ciudad como en los edificios. Demuestran la comprensión de la polaridad y del uso del potenciómetro para regular la intensidad de la luz o crear efectos variables.\n- Interruptores: empleados para el control manual de distintas funciones, como encender o apagar la iluminación, confirmando el entendimiento del control de flujo eléctrico.\n- Motores DC: integrados en \"La Moto de Lila\" para dotarla de movilidad, demostrando la capacidad de convertir energía eléctrica en movimiento mecánico.\n- Cables jumper: utilizados para realizar las conexiones eléctricas necesarias entre todos los elementos, mostrando una organización clara y funcional del circuito.\n\nFuncionalidades Clave:\n- Iluminación de la ciudad y los edificios: la maqueta cuenta con un sistema de iluminación completo y controlable.\n- Movilidad de la Moto de Lila: el vehículo es funcional y se desplaza de forma autónoma o controlada gracias a los motores DC.\n\nConclusión:\nEl proyecto \"La Ciudad de Lila\" es una prueba práctica y exitosa de cómo los estudiantes han aplicado los conceptos teóricos de electrónica básica para crear un modelo funcional, interactivo y con elementos de movimiento.",
       "gallery": [
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp"
+        "/img/CiudaddeLia.webp.webp",
+        "/img/CiudaddeLia3.webp"
       ]
     },
     {
-      "id": "Proyecto 8",
-      "title": "Proyecto 8",
-      "description": "Proyecto 8",
-      "image": "/img/arduino.jpg",
-      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
+      "id": "Asistente visual",
+      "title": "Asistente visual",
+      "description": "Anteojos adaptados para personas no vidente permite al usuario escanear el entorno a la altura de los ojos, detectando objetos elevados (como ramas o señalización) que podrían no ser detectados por el bastón.",
+      "image": "/img/anteojos-SedeObera.webp",
+      "descriptionGral": "Este proyecto consiste en el desarrollo de un sistema de detección de obstáculos portátil e intuitivo, integrado en unas gafas. El dispositivo funciona como una ayuda a la movilidad, alertando al usuario sobre peligros cercanos mediante feedback sonoro. Microcontrolador: Arduino Nano, elegido por su tamaño compacto y bajo consumo. Detección de Obstáculos |Sensor Ultrasónico:  Emite ondas de sonido de alta frecuencia y mide el tiempo que tardan en rebotar. Esto permite calcular con precisión la distancia a los objetos frontales. Sistema de Alerta | Buzzer (Zumbador). Convierte la información de distancia calculada por el Arduino en una alerta sonora. La frecuencia o el patrón del sonido se modulan para indicar la proximidad del obstáculo",
       "gallery": [
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp"
-      ]
-    },
-    {
-      "id": "Proyecto 9",
-      "title": "Proyecto 9",
-      "description": "Proyecto 9",
-      "image": "/img/arduino.jpg",
-      "descriptionGral": "Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.Descripción completa del proyecto, objetivos, tecnologías usadas, proceso, aprendizajes y próximos pasos.",
-      "gallery": [
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp",
-        "/img/casa-domotica.webp"
+        "/img/anteojos-SedeObera.webp"
       ]
     }
   ]
