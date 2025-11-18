@@ -92,6 +92,16 @@
       "gallery": [
         "/img/anteojos-SedeObera.webp"
       ]
+    },
+    {
+      "id": "Auto seguidor de linea",
+      "title": "Auto seguidor de linea",
+      "description": "Este proyecto consiste en el desarrollo de un robot móvil autónomo con capacidad de seguir una línea marcada en el suelo.",
+      "image": "/img/autito-SedeObera.webp",
+      "descriptionGral": "Está construido sobre una potente placa ESP32, que le proporciona la inteligencia y capacidad de control necesarias. Microcontrolador ESP32. Actúa como el cerebro del robot. Lee las señales de los sensores IR y toma decisiones en tiempo real sobre la dirección y velocidad de los motores. Detección de Línea: Sensores Infrarrojos (IR) (Modelo HW511). Estos sensores se encargan de la detección de la línea de seguimiento. Emiten luz IR y miden la reflectividad para determinar si el robot se encuentra sobre la línea o sobre la superficie base. Actuadores: Dos Motores DC con Caja Reductora. Proporcionan la tracción necesaria para el movimiento. La caja reductora garantiza el torque adecuado para el control preciso a bajas velocidades. Control de Motores: Driver H-Bridge L298N. Es la interfaz de potencia entre la baja corriente de la ESP32 y la alta corriente requerida por los motores DC. Permite controlar la velocidad y el sentido de giro de cada motor de forma independiente para realizar las correcciones direccionales.",
+      "gallery": [
+        "/img/autito-SedeObera.webp"
+      ]
     }
   ]
 }
