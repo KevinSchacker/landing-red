@@ -212,10 +212,11 @@
       "id": "Evolución de la mariposa",
       "title": "Evolución de la mariposa",
       "description": "Proyecto que demuestra las distintas facetas que atraviesa la mariposa.",
-      "image": "/img/",
+      "image": "/img/mariposa.webp",
       "descriptionGral": "Con el desarrollo de este proyecto elaborado por un Trend Kids lo que se busca es integrar las cuatro facetas de metamorfosis de la mariposa en una sola maqueta que contiene en la superficie inferior los controladores por medio de botones pulsadores que acciona las distintas facetas: Huevo: Al presionar un botón pulsador activa unas luces Led en serie que representa los huevos de gusanos. Gusano: contiene tres botones pulsadores que determina el color de led que se encenderá, está constituido por un led RGB, rojo, verde y azul constituyendo así el gusano. crisálida: Hace referencia al capullo en donde permanece el gusano por un tiempo determinado, se acciona la luz led en paralelo al presionar el botón pulsador. Mariposa: Constituido por un mecanismo básico para representar el movimiento del vuelo de la mariposa y un motor de corriente continua para dar el movimiento, el mismo se acciona por medio de un botón pulsador.",
       "gallery": [
-        "/img/"
+        "/img/mariposa.webp",
+        "/img/mariposa2.webp"
       ]
     },
     
@@ -223,50 +224,43 @@
       "id": "Alarma contra incendios ",
       "title": "Alarma contra incendios ",
       "description": "Sistema de seguridad que activa salida de emergencia ",
-      "image": "/img/",
+      "image": "/img/alarma-contra-incendios.webp",
       "descriptionGral": "Proyecto elaborado por Maker Junior, diseñado para la seguridad de un boliche, que consiste en detectar la presencia de fuego a través de un sensor de llama, la misma da aviso a la placa Arduino uno que se encarga de otorgar información lumínica a través de luces Led y sonora por medio de un zumbador para avisar a las personas de forma sencilla, este dispositivo al mismo tiempo que detecta fuego lo que hace es activar un servomotor y abrir una puerta de salida de emergencia.",
       "gallery": [
-        "/img/"
+        "/img/alarma-contra-incendios.webp",
+        "/img/alarma-contra-incendios2.webp"
       ]
     },
     {
       "id": "Ducktron",
       "title": "Ducktron",
       "description": "Juego de puntería al pato con pistola laser.",
-      "image": "/img/",
+      "image": "/img/ducktron2.webp",
       "descriptionGral": "El trayecto de Maker Junior a rediseñado un clásico juego kermes de feria, elaborado con base de una placa Arduino mega, debido a la gran cantidad de pines necesarios para realizar la conexión, utilizando una pantalla LCD necesaria para brindar información útil a la hora de jugar, demostrando cuantos patos se acerto con los disparos laser y demostrando si se logro el objetivo como para ganar o perder. Los objetivos que son patos contienen un sensor de luz LDR capas de detectar la luz de un emisor laser que contiene la pistola, de esta manera y en un cierto tiempo determinado se lograr acertar o errar el disparo.",
       "gallery": [
-        "/img/"
+        "/img/ducktron.webp",
+        "/img/ducktron2.webp"
       ]
     },
     {
       "id": "Huerto Inteligente",
       "title": "Huerto Inteligente",
       "description": "Proyecto compuesto por dos espantapájaros contemporáneos capaces de brindar información útil sobre el cultivo de una pequeña huerta.",
-      "image": "/img/",
+      "image": "/img/huerto-smart.webp",
       "descriptionGral": "Elaborado por el Club de Abuelas: El proyecto de huerta esta constituido por una placa Arduino uno capas de controlar los dos espantapájaros que cumplen distintas funciones. espantapájaros 1: Es capas de analizar el nivel de humedad del suelo, brindando información lumínica a través de luces led como así también sonora con un pequeño zumbador, esta información fácil de comprender debido a que las luces verdes determina que el nivel del suelo esta en optimo estado húmedo, luz amarilla y el zumbador da el aviso a que es necesario regar el huerto. espantapájaros 2: Representa el clásico funcionamiento de un espantapájaros, contiene un sensor de movimiento PIR que detecta si se encuentra la presencia de algún animal en cierta área y realiza un movimiento a través de un servomotor.",
       "gallery": [
-        "/img/"
+        "/img/huerto-smart.webp",
+        "/img/huerto-smart2.webp"
       ]
     },
     {
-      "id": "",
-      "title": "",
-      "description": "",
-      "image": "/img/",
-      "descriptionGral": "",
+      "id": "GreenFace",
+      "title": "GreenFace",
+      "description": "🌱 Sistema de planta inteligente con Arduino Nano, sensor de humedad y matriz LED 8x8 que muestra una cara 😀 o 😟 según el nivel de hidratación de la planta.",
+      "image": "/img/greenface.png",
+      "descriptionGral": "🌿 Proyecto de planta inteligente que utiliza un Arduino Nano, un sensor de humedad de suelo y una matriz LED 8x8 para indicar el estado de la planta. Cuando la humedad es baja se muestra una cara 😟 que señala que necesita agua, y cuando el nivel es adecuado aparece una cara 😀 indicando que está en buenas condiciones. Ideal para aprender automatización, electrónica y cuidado de plantas.",
       "gallery": [
-        "/img/"
-      ]
-    },
-    {
-      "id": "",
-      "title": "",
-      "description": "",
-      "image": "/img/",
-      "descriptionGral": "",
-      "gallery": [
-        "/img/"
+        "/img/greenface.png"
       ]
     }
   ]
