@@ -102,6 +102,172 @@
       "gallery": [
         "/img/autito-SedeObera.webp"
       ]
+    },
+    {
+      "id": "Abeja Bailarina",
+      "title": "Abeja Bailarina",
+      "description": "Abeja que baila con servomotores",
+      "image": "/img/Abeja-Bailarina-_1_.webp",
+      "descriptionGral": "Este es un proyecto fascinante que combina robótica, programación y biología. Crear una \"Abeja Bailarina\" no es solo un ejercicio divertido de ingeniería, sino también una excelente manera de simular la \"danza del octavo\" (waggle dance), el método real que usan las abejas para comunicar la ubicación de las flores a su colmena.\nEl objetivo es construir un robot con forma de abeja (o una abeja animatrónica sobre una base) que pueda replicar los patrones de movimiento de la comunicación apícola: Caminar.\nGrupo: Tecno Básico (7 y 8 años) de los viernes por la tarde.\nMecánica Básica\n•        Servo 1 (Base): Permite que la abeja gire a la izquierda y derecha (orientación).\n•        Servo 2 (Cuerpo): Permite que la abeja gire a la derecha y izquierda (vibración).\n•        Sensor Ultrasónico: Permite detectar objetos y dar marcha atrás al caminar de la abeja.\n\nLista de Materiales:\n•        . Microcontrolador: Arduino Nano (es mejor para que la abeja sea compacta).\n•        . 2  Micro Servomotores (Son pequeños, ligeros y económicos).\n•        . Portapilas para 4 baterías AA (6V) o una batería LiPo de 7.4V (con regulador).\n•        . Cables: Jumpers macho-macho y macho-hembra.\n•        Sensor Ultrasónico. Para detectar objetos y dar marcha atrás a la abeja.",
+      "gallery": [
+        "/img/Abeja-bailarina.webp",
+        "/img/Abeja-Bailarina-_1_.webp",
+        "/img/Abejita-bailarina.webp"
+      ]
+    },
+    {
+      "id": "Arpa Laser",
+      "title": "Arpa Laser",
+      "description": "Arpa Laser con sonido inclusiva.",
+      "image": "/img/Arpa.webp",
+      "descriptionGral": "ARPA LASER\nEste proyecto de arpa láser con sonido utilizando Arduino Uno es un instrumento musical electrónico sin cuerdas que funciona detectando la interrupción de haces de luz láser para generar notas.\nEl arpa láser simula las cuerdas de un arpa tradicional con haces de luz láser.\n1.        \"Cuerdas\" Láser: Se utilizan 5 diodos láser, dispuestos en paralelo.\n2.        Detección de Interrupción: Cada haz láser apunta a un LDR (Resistencia Dependiente de la Luz)\n3.        Activación de Nota: Cuando el usuario interrumpe el haz láser con un dedo (como si pulsara una cuerda), la luz que llega al sensor LDR disminuye drásticamente.\n4.        Procesamiento con Arduino: El Arduino Uno lee el cambio en la resistencia/voltaje del sensor LDR. Si el valor analógico leído cae por debajo de un umbral predefinido, el Arduino interpreta que se ha \"tocado\" esa cuerda (haz láser).\n5.        Generación de Sonido: Basado en la entrada de la LDR, el programa en el Arduino genera una frecuencia específica (la nota musical) y la envía a un buzzer (zumbador).\nEste proyecto permite aplicar conocimientos de electrónica básica, programación en Arduino, y conceptos de física de la luz y el sonido.\nGrupo Maker junior Basico ( 9 a 12 años) Martes por la tarde.",
+
+      "gallery": [
+        "/img/Arpa.webp",
+        "/img/Arpa-Laser.webp"
+      ]
+    },
+    {
+      "id": "Rana Alcalina",
+      "title": "Rana Alcalina",
+      "description": "Rana deposito contenedor de pilas alcalinas",
+      "image": "/img/Rana-ALcalina.webp",
+      "descriptionGral": "Proyecto de Rana Contenedora de Pilas Alcalinas con Arduino\nEste proyecto combina la robótica, el reciclaje y la interactividad para crear una divertida y funcional rana contenedora de pilas alcalinas usadas. La rana está diseñada para abrir su boca (la tapa del contenedor) usando un servomotor cuando detecta un golpe o toque, gracias a un sensor de choque (HW-500), invitando al usuario a depositar la pila.\n\n Componentes Principales\n\n- Arduino Uno: Controla el servomotor basándose en la señal del sensor.\n- Servomotor (ej. SG90) : Actúa como un mecanismo de apertura/cierre de la boca de la rana.\n- Sensor de Choque (HW-500): Detecta una vibración o impacto (un toque en la mesa o en la rana misma) y envía una señal digital al Arduino.\n- Contenedor/Carcasa de Rana: La estructura física del proyecto. Está hecha de cartón, y como contenedor un recipiente reciclado. Tiene una \"boca\" o tapa articulada.\n- Pilas y Conexiones: Fuente de alimentación para el Arduino (y, por lo tanto, para el servomotor y sensor) y cables (jumpers) para conectar los componentes.\n\nGrupo: Maker Junior Basico (9 a 12 años) Lunes por la tarde.",
+      "gallery": [
+        "/img/Rana-ALcalina.webp",
+         "/img/Rana-Alca.webp",
+          "/img/Rana.webp"
+      ]
+    },
+    {
+      "id": "Dispenser Aguas Maker",
+      "title": "Dispenser Aguas Maker",
+      "description": "Dispenser de agua automatizado con sensor de humedad y servomotor.",
+      "image": "/img/dispenser-agua.webp",
+      "descriptionGral": "Este proyecto de un dispenser de agua automatizado con sensor de humedad y servomotor utilizando Arduino Uno es un excelente ejemplo de un sistema de control básico.\nEl proyecto del dispenser automatizado con Arduino es una herramienta de aprendizaje esencial que desarrolla habilidades STEAM (Ciencia, Tecnología, Ingeniería y Matemáticas) a través de la práctica.\n\nPensamiento Computacional y Lógico: Obliga a los estudiantes a programar algoritmos y estructuras de control (if/else) para que el sistema tome decisiones basadas en la lectura del sensor de humedad.\n\nElectrónica y Fundamentos Físicos: Permite comprender la integración de circuitos, sensores (entrada de datos físicos) y actuadores (salida física, como el servomotor) y cómo las señales analógicas se convierten en datos digitales. \n\nIngeniería y Resolución de Problemas: Fomenta la integración de software y hardware, y exige el diseño físico del mecanismo y la depuración metódica de errores tanto en el código como en el cableado.\n\nComponentes\n•        Arduino Uno: Es el cerebro que procesa la información del sensor y controla el servomotor.\n•        Servomotor: Actúa como el mecanismo de dispensación. Se acopla a una pequeña válvula o palanca para abrir y cerrar el flujo de agua.\n•        Sensor de Humedad del Suelo (Capacitivo o Resistivo): En este contexto, este sensor actuará como el \"interruptor\".\n•        Fuente de Agua y Válvula: Un contenedor de agua y una válvula de liberación que será manipulada por el servomotor.\n•        Protoboard y Cables Jumper: Para realizar las conexiones.",
+
+      "gallery": [
+        "/img/dispenser-agua.webp",
+        "/img/Dispenser.webp"
+      ]
+    },
+    {
+      "id": "Sistema de Riego para Macetas",
+      "title": "Sistema de Riego para Macetas",
+      "description": "Este es un Sistema de Riego Autónomo e Inteligente diseñado específicamente para el cuidado de macetas en balcones y terrazas, optimizando el uso del agua y garantizando la salud de las plantas.",
+      "image": "/img/sistemaderiego.webp",
+      "descriptionGral": "El sistema opera de manera completamente automática, decidiendo cuándo y cuánto regar basándose en las lecturas del sensor de humedad.\nPreviene el exceso o la falta de riego, contribuyendo al ahorro de agua y al bienestar de las plantas. Diseño compacto y adaptable para macetas en entornos de balcón.\nLa ESP32, el cerebro del sistema. Permite la programación de la lógica de riego y habilita futuras funcionalidades de conectividad Wi-Fi. \nCon el sensor de humedad de suelo se mide de forma continua el nivel de humedad del sustrato de la maceta, proporcionando el dato clave para determinar la necesidad de riego.\nEl relé actúa como un interruptor controlado por el ESP32 para activar y desactivar la bomba de agua, permitiendo el suministro preciso de la cantidad de agua requerida.\nLos LEDs proporcionan una retroalimentación visual instantánea sobre el estado de humedad de la planta:\nLED Verde: Humedad en el nivel óptimo (Estado OK).\nLED Rojo: Nivel de humedad bajo, indicando que el sistema está activando o necesita activar el riego.",
+
+      "gallery": [
+        "/img/sistemaderiego.webp"
+      ]
+    },
+    {
+      "id": "Dibu Bot",
+      "title": "Dibu Bot",
+      "description": "Este es un robot de entretenimiento dinámico diseñado para la creación de dibujos abstractos únicos e impredecibles. Ofrece una experiencia interactiva donde el usuario influye directamente en el proceso artístico.",
+      "image": "/img/dibubot-SedeObera.webp",
+      "descriptionGral": "El robot combina hardware de precisión con una interfaz de control directa, ideal para experimentar con la generación de patrones.\nNúcleo de Control (Arduino Uno): La plataforma principal que interpreta las entradas del usuario y genera las señales de control para el movimiento motorizado.\nSistema de Movimiento de Alta Precisión:\nDos Motores Paso a Paso (Steppers) y Drivers Dedicados: Permiten un movimiento preciso y repetible en dos ejes (generalmente X e Y o rotación), esenciales para la creación de trazos controlados y figuras geométricas complejas o fluidas.\nInterfaz de Control Directa e Intuitiva:\nDos (2) Potenciómetros Independientes: Actúan como la interfaz de usuario. Cada potenciómetro permite el control manual e individual de la velocidad o la posición de cada motor paso a paso, abriendo un vasto rango de posibilidades para la manipulación del arte en tiempo real.",
+
+      "gallery": [
+        "/img/dibubot-SedeObera.webp"
+      ]
+    },
+    {
+      "id": "Carrera Submarina",
+      "title": "Carrera Submarina",
+      "description": "Este es un proyecto de robótica lúdica y entretenimiento que presenta una carrera temática de vehículos impulsados por corriente continua. El desafío se centra en la habilidad del operador para sortear obstáculos en un circuito complejo utilizando un control remoto cableado de respuesta directa.",
+      "image": "/img/pista-SedeObera.webp",
+      "descriptionGral": "Los protagonistas de la carrera son dos vehículos singulares con una marcada identidad:\nVehículo \"Orca\": Un coche con diseño y estética que simula una orca.\nVehículo \"Tiburón\": Un coche con diseño y estética que simula un tiburón.\nEl diseño enfatiza la sencillez y la fiabilidad mecánica, poniendo el foco en la interacción directa:\nMotorización: Cada vehículo utiliza un motor DC con caja reductora integrada, lo que proporciona el torque necesario para superar las dificultades del circuito a una velocidad manejable.\nAlimentación: Batería de 3.7V que garantiza la potencia compacta y adecuada para el sistema.\nComando de Control Directo: El vehículo es operado mediante un control remoto cableado que conecta directamente el positivo y el negativo, permitiendo al usuario controlar el avance y/o la dirección de manera inmediata y sin latencia.",
+
+      "gallery": [
+        "/img/pista-SedeObera.webp",
+        "/img/pistatibuorca-SedeObera.webp"
+      ]
+    },
+    {
+      "id": "oximetro SpO2",
+      "title": "oximetro SpO2",
+      "description": "Un Oxímetro con Arduino Mini pro, es un dispositivo de monitoreo de salud que utiliza un sensor MAX30102 para medir la saturación de oxígeno en sangre ((SpO_2) y la frecuencia cardíaca de forma no invasiva. ",
+      "image": "/img/oximetro.webp",
+      "descriptionGral": "\"🩺 Proyecto: Oximetro + Ritmo Cardíaco con Pantalla OLED (ECG Simulado)\nBasado en Arduino — Ideal para enseñanza, demostraciones y proyectos de salud DIY\n📌 Descripción General\n\nEste proyecto consiste en la construcción de un oxímetro digital capaz de medir:\n\nFrecuencia cardíaca (BPM)\n\nOxigenación en sangre (SpO₂)\n\nVisualización tipo ECG en pantalla OLED\n\nAnimación de corazón latiente sincronizada con los latidos reales\n\nPantalla final de resultados\n\nTodo integrado en un sistema compacto y alimentado por Arduino.\nEs un proyecto ideal para:\n\n✔ Estudiantes\n✔ Makers\n✔ Docentes\n✔ Prácticas de laboratorio\n✔ Demostraciones en ferias y eventos tecnológicos\n\nImportante: No es un dispositivo médico certificado. Se trata de un proyecto educativo.\n\n🧩 Componentes Utilizados\n🔹 1. Sensor MAX30102 / MAX30105\n\nSensor óptico que mide:\n\nSeñal PPG (fotopletismografía)\n\nSeñal IR/roja para estimar SpO₂\n\nDetección precisa de latidos\n\n🔹 2. Arduino Uno / Nano\n\nMicrocontrolador encargado de:\n\nAdquirir datos del MAX30102\n\nCalcular BPM y SpO₂\n\nProcesar la animación del corazón\n\nDibujar el ECG en tiempo real\n\nAdministrar el flujo lógico completo\n\n🔹 3. Pantalla OLED 128x32 (I2C)\n\nMuestra:\n\nAnimación del corazón\n\nECG en tiempo real\n\nTexto de BPM y SpO₂\n\nMensajes de estado\n\nResultado final\n\n🔹 4. Pulsador (BOTÓN en pin 3)\n\nSirve para:\n\nReiniciar la medición\n\nSalir de la pantalla final\n\n🔹 5. LED indicador (integrado o externo)\n\nParpadea con cada latido detectado.\n\n🔹 6. Cables Dupont + Protoboard\n\nPara montar todo sin soldar.\n\n⚙️ Funcionamiento del Sistema (Resumen)\n\nInicio → Se muestra mensaje de bienvenida.\n\nEl sistema espera que coloques el dedo:\n\"\"Coloque el dedo y mantenga quieto\"\"\n\nDetecta estabilidad del dedo durante 1,5 s.\n\nMuestra:\n\"\"Iniciando prueba…\"\"\n\nComienza la medición:\n\nCaptura de señal IR\n\nProcesamiento de latidos (algoritmo beat detection)\n\nCálculo dinámico de BPM y SpO₂\n\nECG simulado desplazándose\n\nCorazón latiendo visualmente al ritmo real\n\nTras 15 segundos → Finaliza la prueba\n\nPide retirar el dedo\n\nMuestra el resultado final:\n\nSpO₂ con estado (Óptimo / Normal / Bajo)\n\nBPM con estado (Normal / Alto / Bajo)\n\nEspera que se presione el botón para reiniciar.\n\n⭐ Características Destacadas\n✔ Animación realista\n\nEl corazón aumenta y disminuye su tamaño siguiendo cada latido detectado.\n\n✔ ECG simulado\n\nCon picos tipo QRS claros y desplazamiento continuo.\n\n✔ Lectura estable\n\nFiltrado por promedio móvil para mejorar la detección.\n\n✔ Pantallas intuitivas\n\nMensajes claros en cada etapa del proceso.\n\n✔ Resultado final profesional\n\nMuestra valores + interpretación médica básica.\n\n✔ Ventajas del Proyecto\n🔵 1. Educativo\n\nPermite aprender:\n\nSensores ópticos biométricos\n\nSeñales PPG\n\nDetección de latidos\n\nUso de pantallas OLED\n\nProcesamiento de datos en tiempo real\n\n🔵 2. Bajo costo\n\nTodos los componentes son económicos y fáciles de conseguir.\n\n🔵 3. Compacto y portátil\n\nPuede alimentarse desde USB o batería.\n\n🔵 4. Fácil de reproducir\n\nEl código es claro y modular.\n\n🔵 5. Visualmente atractivo\n\nIdeal para ferias, exposiciones y demostraciones.\n\n❌ Limitaciones y Contras\n🔴 1. No es un dispositivo médico\n\nLas mediciones son aproximadas y pueden variar.\n\n🔴 2. Sensible al movimiento\n\nSi el dedo se mueve, los valores pueden fluctuar.\n\n🔴 3. Depende de la calidad del sensor\n\nEl MAX30102 chino a veces varía entre lotes.\n\n🔴 4. La simulación ECG no es real\n\nEs un ECG aproximado basado en la señal PPG, no un ECG clínico.\n\n🔴 5. La medición de SpO₂ es estimada\n\nSolo los dispositivos clínicos o certificados garantizan exactitud.\n\n🎯 Ideal para…\n\nEscuelas técnicas\n\nCursos de electrónica y programación\n\nMakerspaces\n\nProyectos finales\n\nTalleres STEM\n\nDemostraciones científicas\n\nExhibiciones de ferias tecnológicas\n\n📚 Conclusión\n\nEste oxímetro con animación y ECG simulado es un proyecto completo, didáctico y visualmente atractivo que integra:\n\n✔ Electrónica\n✔ Programación\n✔ Señales biométricas\n✔ Interfaz visual\n✔ Procesamiento de datos\n\nPermite comprender cómo funcionan los dispositivos de salud modernos y es una excelente base para futuros proyectos más avanzados.\"",
+
+      "gallery": [
+        "/img/oximetro.webp",
+         "/img/oximetro2.webp"
+      ]
+    },
+    {
+      "id": "RECICLADOR PET",
+      "title": "RECICLADOR PET",
+      "description": "RECICLADOR PET Ender 3 está pensado como un kit de modificación; donde se recupera una Ender 3 antigua para obtener sus piezas básicas, que se reutilizarán en nuestra unidad de pultrusión RECICLADOR PET.",
+      "image": "/img/reciclador2.webp",
+      "descriptionGral": "🟦 ¿Qué es el proyecto Recreator3D ? Es un proyecto que transforma una impresora 3D común (Ender 3) en una máquina que recicla botellas de plástico y las convierte en filamento, que es el material que usan las impresoras 3D para imprimir. En vez de tirar las botellas, ¡las podés usar para imprimir cosas nuevas! ________________________________________ 🟩 ¿Cómo funciona? 1. Cortás una botella de plástico en forma de una tira larga. 2. Esa tira entra en la máquina. 3. La máquina la calienta y estira hasta convertirla en un filamento. 4. Enrolla ese filamento y queda listo para usar en cualquier impresora 3D. Es como “convertir basura en material para crear cosas”. ________________________________________ 🟧 ¿Qué cosas recicla? 👉 Usa botellas de plástico PET (las comunes de bebidas, número 1). 👉 No usa las tapas ni el fondo grueso, solo el cuerpo de la botella. ________________________________________ 🟪 ¿Qué tiene de especial este proyecto? • Es barato de construir comparado con otras máquinas • Se hace modificando una impresora 3D normal que mucha gente ya tiene. • Permite hacer tu propio filamento reciclado. • Fomenta el cuidado del medio ambiente. • Es un proyecto DIY (hazlo vos mismo) para aprender mecánica, reciclaje y tecnología. ________________________________________ 🟨 ¿Qué piezas importantes usa? • Partes impresas en 3D (soportes, ruedas, guías). • Un sistema para cortar botellas en tiras. • Un tubo caliente para fundir el plástico. • Motores que jalan y enrollan el filamento. • La estructura de la impresora Ender 3. ________________________________________ 🟩 ¿Para quién está pensado? • Para chicos y jóvenes que les gusta la tecnología. • Para escuelas y talleres de reciclaje. • Para quienes tienen una impresora 3D y quieren gastar menos en filamento. • Para proyectos ambientales o de ciencia. ________________________________________ 🟦 ¿Por qué es importante? Porque convierte un problema (las botellas de plástico) en una oportunidad: 👉 Crear objetos nuevos 👉 Ahorrar dinero 👉 Cuidar el planeta",
+      "gallery": [
+        "/img/reciclador.webp",
+        "/img/reciclador2.webp"
+      ]
+    },
+    {
+      "id": "Evolución de la mariposa",
+      "title": "Evolución de la mariposa",
+      "description": "Proyecto que demuestra las distintas facetas que atraviesa la mariposa.",
+      "image": "/img/",
+      "descriptionGral": "Con el desarrollo de este proyecto elaborado por un Trend Kids lo que se busca es integrar las cuatro facetas de metamorfosis de la mariposa en una sola maqueta que contiene en la superficie inferior los controladores por medio de botones pulsadores que acciona las distintas facetas: Huevo: Al presionar un botón pulsador activa unas luces Led en serie que representa los huevos de gusanos. Gusano: contiene tres botones pulsadores que determina el color de led que se encenderá, está constituido por un led RGB, rojo, verde y azul constituyendo así el gusano. crisálida: Hace referencia al capullo en donde permanece el gusano por un tiempo determinado, se acciona la luz led en paralelo al presionar el botón pulsador. Mariposa: Constituido por un mecanismo básico para representar el movimiento del vuelo de la mariposa y un motor de corriente continua para dar el movimiento, el mismo se acciona por medio de un botón pulsador.",
+      "gallery": [
+        "/img/"
+      ]
+    },
+    
+    {
+      "id": "Alarma contra incendios ",
+      "title": "Alarma contra incendios ",
+      "description": "Sistema de seguridad que activa salida de emergencia ",
+      "image": "/img/",
+      "descriptionGral": "Proyecto elaborado por Maker Junior, diseñado para la seguridad de un boliche, que consiste en detectar la presencia de fuego a través de un sensor de llama, la misma da aviso a la placa Arduino uno que se encarga de otorgar información lumínica a través de luces Led y sonora por medio de un zumbador para avisar a las personas de forma sencilla, este dispositivo al mismo tiempo que detecta fuego lo que hace es activar un servomotor y abrir una puerta de salida de emergencia.",
+      "gallery": [
+        "/img/"
+      ]
+    },
+    {
+      "id": "Ducktron",
+      "title": "Ducktron",
+      "description": "Juego de puntería al pato con pistola laser.",
+      "image": "/img/",
+      "descriptionGral": "El trayecto de Maker Junior a rediseñado un clásico juego kermes de feria, elaborado con base de una placa Arduino mega, debido a la gran cantidad de pines necesarios para realizar la conexión, utilizando una pantalla LCD necesaria para brindar información útil a la hora de jugar, demostrando cuantos patos se acerto con los disparos laser y demostrando si se logro el objetivo como para ganar o perder. Los objetivos que son patos contienen un sensor de luz LDR capas de detectar la luz de un emisor laser que contiene la pistola, de esta manera y en un cierto tiempo determinado se lograr acertar o errar el disparo.",
+      "gallery": [
+        "/img/"
+      ]
+    },
+    {
+      "id": "Huerto Inteligente",
+      "title": "Huerto Inteligente",
+      "description": "Proyecto compuesto por dos espantapájaros contemporáneos capaces de brindar información útil sobre el cultivo de una pequeña huerta.",
+      "image": "/img/",
+      "descriptionGral": "Elaborado por el Club de Abuelas: El proyecto de huerta esta constituido por una placa Arduino uno capas de controlar los dos espantapájaros que cumplen distintas funciones. espantapájaros 1: Es capas de analizar el nivel de humedad del suelo, brindando información lumínica a través de luces led como así también sonora con un pequeño zumbador, esta información fácil de comprender debido a que las luces verdes determina que el nivel del suelo esta en optimo estado húmedo, luz amarilla y el zumbador da el aviso a que es necesario regar el huerto. espantapájaros 2: Representa el clásico funcionamiento de un espantapájaros, contiene un sensor de movimiento PIR que detecta si se encuentra la presencia de algún animal en cierta área y realiza un movimiento a través de un servomotor.",
+      "gallery": [
+        "/img/"
+      ]
+    },
+    {
+      "id": "",
+      "title": "",
+      "description": "",
+      "image": "/img/",
+      "descriptionGral": "",
+      "gallery": [
+        "/img/"
+      ]
+    },
+    {
+      "id": "",
+      "title": "",
+      "description": "",
+      "image": "/img/",
+      "descriptionGral": "",
+      "gallery": [
+        "/img/"
+      ]
     }
   ]
 }
