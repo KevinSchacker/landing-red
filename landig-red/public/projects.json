@@ -257,10 +257,11 @@
       "id": "GreenFace",
       "title": "GreenFace",
       "description": "🌱 Sistema de planta inteligente con Arduino Nano, sensor de humedad y matriz LED 8x8 que muestra una cara 😀 o 😟 según el nivel de hidratación de la planta.",
-      "image": "/img/greenface.png",
+      "image": "/img/greenface.webp",
       "descriptionGral": "🌿 Proyecto de planta inteligente que utiliza un Arduino Nano, un sensor de humedad de suelo y una matriz LED 8x8 para indicar el estado de la planta. Cuando la humedad es baja se muestra una cara 😟 que señala que necesita agua, y cuando el nivel es adecuado aparece una cara 😀 indicando que está en buenas condiciones. Ideal para aprender automatización, electrónica y cuidado de plantas.",
       "gallery": [
-        "/img/greenface.png"
+        "/img/greenface.webp",
+        "/img/greenface2.webp"
       ]
     }
   ]
