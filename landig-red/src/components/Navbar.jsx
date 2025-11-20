@@ -4,7 +4,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar__left">
         <img
-          src="/img/logoperfil.png"
+          src="/img/logoperfil.webp"
           alt="Red Maker Oberá"
           className="navbar__logo"
           width="56"

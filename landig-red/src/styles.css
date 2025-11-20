@@ -19,31 +19,31 @@
 
   --radius: 16px;
   --radius-lg: 18px;
-  --shadow: 0 10px 30px rgba(0, 0, 0, .35);
-  --ring: 0 0 0 2px rgba(210, 43, 43, .25);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --ring: 0 0 0 2px rgba(210, 43, 43, 0.25);
 
-  /* altura navbar */
   --nav-h: 64px;
   color-scheme: dark;
 }
 
 /* ========= BASE ========= */
-* { 
-  box-sizing: border-box; 
+* {
+  box-sizing: border-box;
 }
 
-html, body, #root { 
-  height: 100%; 
+html,
+body,
+#root {
+  height: 100%;
 }
 
 body {
   margin: 0;
   color: var(--text);
   min-height: 100vh;
-  padding-top: var(--nav-h);
-  background:
-    radial-gradient(120rem 100rem at 120% -20%, rgba(210, 43, 43, .08), transparent 70%),
-    radial-gradient(100rem 80rem at -20% -10%, rgba(210, 43, 43, .06), transparent 70%),
+  padding-top: calc(var(--nav-h) + env(safe-area-inset-top, 0px));
+  background: radial-gradient(120rem 100rem at 120% -20%, rgba(210, 43, 43, 0.08), transparent 70%),
+    radial-gradient(100rem 80rem at -20% -10%, rgba(210, 43, 43, 0.06), transparent 70%),
     linear-gradient(180deg, #0c0e13 0%, #0a0b10 100%);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -62,8 +62,8 @@ body {
   right: 0;
   z-index: 1000;
   backdrop-filter: saturate(120%) blur(10px);
-  background: rgba(14, 16, 22, .6);
-  border-bottom: 1px solid rgba(255,255,255,.06);
+  background: rgba(14, 16, 22, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,8 +74,8 @@ body {
 }
 
 body.scrolled .navbar {
-  box-shadow: 0 6px 16px rgba(0,0,0,.35);
-  background: rgba(14,16,22,.75);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  background: rgba(14, 16, 22, 0.75);
 }
 
 .navbar__left {
@@ -101,7 +101,7 @@ body.scrolled .navbar {
 .navbar__link {
   color: var(--text);
   text-decoration: none;
-  opacity: .9;
+  opacity: 0.9;
   border: 1px solid var(--line);
   padding: 8px 12px;
   border-radius: 10px;
@@ -112,8 +112,8 @@ body.scrolled .navbar {
 
 .navbar__link:hover {
   opacity: 1;
-  background: rgba(210, 43, 43, .12);
-  border-color: rgba(210, 43, 43, .25);
+  background: rgba(210, 43, 43, 0.12);
+  border-color: rgba(210, 43, 43, 0.25);
 }
 
 /* ========= HERO ========= */
@@ -129,7 +129,7 @@ body.scrolled .navbar {
   font-weight: 800;
   letter-spacing: -.01em;
   font-size: clamp(1.6rem, 3.2vw, 2.4rem);
-  text-shadow: 0 1px 0 rgba(0,0,0,.25);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
 }
 
 .hero__subtitle {
@@ -145,7 +145,7 @@ body.scrolled .navbar {
   padding: clamp(16px, 4vw, 40px);
 }
 
-/* ========= GRID ========= */
+/* ========= GRID DE PROYECTOS ========= */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -153,7 +153,7 @@ body.scrolled .navbar {
   justify-content: center;
 }
 
-/* ========= CARD ========= */
+/* ========= CARDS DE VOTACIÓN ========= */
 .card {
   background: linear-gradient(180deg, var(--surface), var(--elev));
   border: 1px solid var(--line);
@@ -161,18 +161,17 @@ body.scrolled .navbar {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 2px 10px rgba(0,0,0,.3);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease, filter .3s ease;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0,0,0,.4);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
   border-color: var(--line-soft);
   filter: saturate(105%);
 }
 
-/* Cambiado object-fit de cover a contain para mostrar imágenes completas sin zoom */
 .card img {
   width: 100%;
   height: 200px;
@@ -190,7 +189,6 @@ body.scrolled .navbar {
   padding: 14px 16px 10px;
   display: grid;
   gap: 8px;
-  /* Agregando flex-grow para que el contenido empuje los botones hacia abajo */
   flex-grow: 1;
 }
 
@@ -201,7 +199,7 @@ body.scrolled .navbar {
   color: #fff;
   letter-spacing: -.005em;
   line-height: 1.25;
-  opacity: .98;
+  opacity: 0.98;
 }
 
 .card p {
@@ -211,18 +209,16 @@ body.scrolled .navbar {
   line-height: 1.45;
 }
 
-/* ========= STATS ========= */
+/* ========= STATS Y BOTONES DE VOTACIÓN ========= */
 .stats {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
   padding: 12px 16px 16px;
-  /* Agregando margin-top auto para forzar alineación inferior */
   margin-top: auto;
 }
 
-/* ========= BADGE ========= */
 .badge {
   background: #0c0f14;
   border: 1px solid var(--line);
@@ -244,43 +240,44 @@ body.scrolled .navbar {
   background: var(--primary);
   color: #fff;
   transition: transform .08s ease, box-shadow .18s ease, background .18s ease;
-  box-shadow: 0 4px 12px rgba(210, 43, 43, .28);
+  box-shadow: 0 4px 12px rgba(210, 43, 43, 0.28);
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
   user-select: none;
 }
 
-.btn:hover { 
-  background: var(--primary-600); 
+.btn:hover {
+  background: var(--primary-600);
 }
 
-.btn:active { 
-  transform: translateY(1px); 
+.btn:active {
+  transform: translateY(1px);
 }
 
 .btn:focus-visible {
-  outline: 2px solid rgba(210, 43, 43, .6);
+  outline: 2px solid rgba(210, 43, 43, 0.6);
   outline-offset: 2px;
 }
 
-.btn[disabled] { 
-  opacity: .65; 
-  cursor: not-allowed; 
-  box-shadow: none; 
+.btn[disabled] {
+  opacity: 0.65;
+  cursor: not-allowed;
+  box-shadow: none;
 }
 
-.btn--loading { 
-  opacity: .9; 
-  pointer-events: none; 
+.btn--loading {
+  opacity: 0.9;
+  pointer-events: none;
 }
 
 .btn.btn--ghost:focus-visible {
-  outline: 2px solid rgba(210,43,43,.6);
+  outline: 2px solid rgba(210, 43, 43, 0.6);
   outline-offset: 2px;
 }
 
 /* ========= ESTADOS ========= */
-.loading, .error {
+.loading,
+.error {
   padding: 16px;
   border-radius: 12px;
   border: 1px solid var(--line);
@@ -290,7 +287,7 @@ body.scrolled .navbar {
   margin: 0 auto;
 }
 
-/* ========= TOAST ========= */
+/* ========= TOAST NOTIFICATIONS ========= */
 .toast {
   position: fixed;
   top: 24px;
@@ -299,26 +296,38 @@ body.scrolled .navbar {
   border-radius: 8px;
   color: #fff;
   font-weight: 500;
-  box-shadow: 0 4px 12px rgba(0,0,0,.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   opacity: 0;
   transform: translateY(-10px);
   animation: toastIn .3s forwards, toastOut .3s forwards 2.2s;
   z-index: 9999;
 }
 
-.toast--success { background: #27ae60; }
-.toast--error   { background: #e74c3c; }
-.toast--info    { background: #3498db; }
-
-@keyframes toastIn { 
-  to { opacity: 1; transform: translateY(0); } 
+.toast--success {
+  background: #27ae60;
+}
+.toast--error {
+  background: #e74c3c;
+}
+.toast--info {
+  background: #3498db;
 }
 
-@keyframes toastOut { 
-  to { opacity: 0; transform: translateY(-10px); } 
+@keyframes toastIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-/* ========= MODAL ========= */
+@keyframes toastOut {
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+/* ========= MODAL DE PROYECTO ========= */
 .modal {
   position: fixed;
   inset: 0;
@@ -328,7 +337,7 @@ body.scrolled .navbar {
 .modal__backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,.55);
+  background: rgba(0, 0, 0, 0.55);
   backdrop-filter: blur(2px);
 }
 
@@ -353,7 +362,7 @@ body.scrolled .navbar {
   top: 10px;
   right: 12px;
   border: 0;
-  background: rgba(0,0,0,.7);
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
   width: 36px;
   height: 36px;
@@ -361,12 +370,12 @@ body.scrolled .navbar {
   font-size: 22px;
   line-height: 1;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0,0,0,.35);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
   z-index: 10;
 }
 
-.modal__close:hover { 
-  background: rgba(0,0,0,.85); 
+.modal__close:hover {
+  background: rgba(0, 0, 0, 0.85);
 }
 
 .modal__body {
@@ -406,7 +415,7 @@ body.scrolled .navbar {
   user-select: none;
 }
 
-/* ========= CARRUSEL ========= */
+/* ========= CARRUSEL DE IMÁGENES ========= */
 .modal__carousel {
   position: relative;
   width: 100%;
@@ -440,9 +449,9 @@ body.scrolled .navbar {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,.7);
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
-  border: 1px solid rgba(255,255,255,.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -459,7 +468,7 @@ body.scrolled .navbar {
 }
 
 .carousel__btn:hover:not(:disabled) {
-  background: rgba(210, 43, 43, .8);
+  background: rgba(210, 43, 43, 0.8);
 }
 
 .carousel__btn:active:not(:disabled) {
@@ -493,7 +502,7 @@ body.scrolled .navbar {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: rgba(255,255,255,.4);
+  background: rgba(255, 255, 255, 0.4);
   border: none;
   cursor: pointer;
   transition: background .2s ease, transform .2s ease;
@@ -501,7 +510,7 @@ body.scrolled .navbar {
 }
 
 .carousel__indicator:hover {
-  background: rgba(255,255,255,.6);
+  background: rgba(255, 255, 255, 0.6);
   transform: scale(1.2);
 }
 
@@ -514,7 +523,7 @@ body.scrolled .navbar {
   position: absolute;
   top: 12px;
   left: 12px;
-  background: rgba(0,0,0,.7);
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 6px 12px;
   border-radius: 20px;
@@ -526,134 +535,228 @@ body.scrolled .navbar {
 /* ========= FOOTER ========= */
 .footer {
   margin-top: 24px;
-  border-top: 1px solid rgba(255,255,255,.06);
-  background: rgba(14,16,22,.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(14, 16, 22, 0.6);
   backdrop-filter: saturate(120%) blur(6px);
 }
 
 .footer__wrap {
   max-width: 1040px;
   margin: 0 auto;
-  padding: 16px;
+  padding: 20px 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 16px;
   color: var(--muted);
   font-size: .95rem;
 }
 
-.footer__brand { 
-  display: flex; 
-  align-items: center; 
-  gap: 10px; 
+.footer__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.footer__logo { 
-  width: 20px; 
-  height: 20px; 
-  border-radius: 4px; 
+.footer__logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
 }
 
-.footer__small { 
-  opacity: .85; 
+.footer__small {
+  opacity: 0.85;
+}
+
+/* Estilos mejorados para el botón de WhatsApp */
+.footer__whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: #25d366;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  box-shadow: 0 2px 8px rgba(37, 211, 102, 0.25);
+}
+
+.footer__whatsapp:hover {
+  background: #20ba5a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.35);
+}
+
+.footer__whatsapp:active {
+  transform: translateY(0);
+}
+
+.footer__whatsapp-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
 }
 
 /* ========= RESPONSIVE ========= */
+
+/* Tablets y Desktop pequeño */
 @media (min-width: 768px) {
-  .navbar__logo { 
-    width: 64px; 
-    height: 64px; 
+  .navbar__logo {
+    width: 64px;
+    height: 64px;
   }
-  .navbar__title { 
-    font-size: 1.25rem; 
+  .navbar__title {
+    font-size: 1.25rem;
   }
-  .grid { 
-    gap: 20px; 
+  .grid {
+    gap: 20px;
   }
 }
 
+/* Desktop mediano */
 @media (min-width: 992px) and (max-width: 1400px) {
-  .container { 
-    max-width: 1100px; 
-    padding-inline: 20px; 
+  .container {
+    max-width: 1100px;
+    padding-inline: 20px;
   }
-  .grid { 
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 18px; 
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
   }
-  .card img { 
-    height: 210px; 
+  .card img {
+    height: 210px;
   }
-  .hero { 
-    margin-top: 16px; 
+  .hero {
+    margin-top: 16px;
   }
-  .hero__title { 
-    font-size: 2rem; 
-    opacity: 1; 
+  .hero__title {
+    font-size: 2rem;
+    opacity: 1;
   }
 }
 
+/* Tablets */
 @media (min-width: 640px) and (max-width: 991px) {
-  .grid { 
-    grid-template-columns: repeat(2, 1fr); 
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
+/* Mobile - Mejoras específicas para votación y footer con WhatsApp */
 @media (max-width: 640px) {
-  .grid { 
-    grid-template-columns: 1fr; 
+  .grid {
+    grid-template-columns: 1fr;
   }
-  .stats { 
-    flex-direction: column; 
-    align-items: stretch; 
-    gap: 8px; 
+
+  /* Cards de votación en mobile */
+  .stats {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
   }
+
   .stats .btn,
-  .stats .btn.btn--ghost { 
-    width: 100%; 
+  .stats .btn.btn--ghost {
+    width: 100%;
   }
-  .modal__content { 
+
+  /* Modal en mobile */
+  .modal__content {
     width: 100vw;
     max-height: 100vh;
     height: 100dvh;
     border-radius: 0;
     transform: none;
   }
+
   .modal__carousel-container {
     height: 50dvh;
     min-height: 250px;
   }
+
   .carousel__btn {
     width: 36px;
     height: 36px;
     font-size: 24px;
   }
+
   .carousel__btn--prev {
     left: 8px;
   }
+
   .carousel__btn--next {
     right: 8px;
   }
-  .modal__media img { 
-    max-height: 50dvh; 
+
+  .modal__media img {
+    max-height: 50dvh;
     height: auto;
   }
+
   .modal__body {
     height: calc(100dvh - 50dvh);
     padding: 14px;
   }
-}
 
-/* ========= MEJORAS DE ACCESIBILIDAD ========= */
-@media (prefers-reduced-motion: reduce) {
-  .toast { 
-    animation: none; 
-    opacity: 1; 
-    transform: none; 
+  /* Footer optimizado para mobile */
+  .footer__wrap {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    padding: 24px 16px;
+  }
+
+  .footer__brand {
+    order: 1;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer__whatsapp {
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    padding: 14px 20px;
+    font-size: 1rem;
+    border-radius: 12px;
+    min-height: 48px;
+  }
+
+  .footer__whatsapp-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer__small {
+    order: 3;
+    font-size: 0.85rem;
   }
 }
 
-body { 
-  padding-top: calc(var(--nav-h) + env(safe-area-inset-top, 0px)); 
+/* ========= ACCESIBILIDAD ========= */
+@media (prefers-reduced-motion: reduce) {
+  .toast {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .card,
+  .btn,
+  .footer__whatsapp {
+    transition: none;
+  }
+}
+
+/* Mejoras para safe area en dispositivos con notch */
+@media (max-width: 640px) {
+  .footer {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
 }
